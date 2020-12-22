@@ -1,14 +1,26 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import TrackingActivities from "@/views/TrackingActivities";
+import Planning from "@/views/Planning";
+import Statistics from "@/views/Statistics";
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'trackingActivities',
+    component: TrackingActivities
+  },
+  {
+    path: '/planning',
+    name: 'planning',
+    component: Planning
+  },
+  {
+    path: '/statistics',
+    name: 'Statistics',
+    component: Statistics
   },
 ]
 

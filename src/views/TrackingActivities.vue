@@ -6,7 +6,7 @@
           <Sidebar />
         </v-col>
         <v-col class="red col-8">
-          <GeneralViewWeeks />
+          <Week />
         </v-col>
       </v-row>
     </v-container>
@@ -15,13 +15,13 @@
 
 <script>
 // @ is an alias to /src
-import Sidebar from "@/components/Sidebar";
-import GeneralViewWeeks from "@/components/GeneralViewWeeks";
+import Week from "@/components/Tracker/Week";
+import Sidebar from "@/components/Tracker/Sidebar/Sidebar";
 
 export default {
   name: 'Home',
   components: {
-    GeneralViewWeeks,
+    Week,
     Sidebar,
   }
 }

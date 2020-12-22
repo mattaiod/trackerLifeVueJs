@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1>CreateModify</h1>
+    STATS
   </div>
 </template>
 
 <script>
 export default {
-name: "CreateModifyActivities"
+name: "Statistics"
 }
 </script>
 

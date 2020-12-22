@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1>settingTime</h1>
+    <h2>Créneaux à confirmer</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: "SettingTimeActivities"
+name: "CreateModifyActivities"
 }
 </script>
 
